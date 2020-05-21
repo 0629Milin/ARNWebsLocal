@@ -1269,6 +1269,11 @@ section {
   color: #fff;
 }
 
+.tickmark:hover i {
+background: #91ce00;
+  color: #fff;
+}
+
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
