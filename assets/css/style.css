@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none;  
 }
 
 .nav-menu > ul > li {
@@ -569,6 +569,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: rgb(234, 240, 240);
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -1203,6 +1206,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+   background: #DAD3E1; 
+}
 .contact .info {
   padding: 30px;
   background: #fff;
@@ -1273,6 +1279,15 @@ section {
 background: #91ce00;
   color: #fff;
 }
+
+.whatsaap {
+  color: black;
+}
+
+.whatsaap:hover {
+  color: #009cea;
+}
+
 
 .contact .php-email-form {
   width: 100%;
@@ -1496,14 +1511,14 @@ background: #91ce00;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #070c11;
   padding: 0 0 30px 0;
-  color: #364146;
+  color: #c7c9ca;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #fff;
+  background: #4a023a;
   padding: 60px 0 30px 0;
   border-top: 2px solid #e9ecee;
   border-bottom: 2px solid #e9ecee;
@@ -1526,14 +1541,14 @@ background: #91ce00;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #576971;
+  color: #c7c9ca;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #e9ecee;
-  color: #8a9ca5;
+  color: #4286a8;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1550,10 +1565,14 @@ background: #91ce00;
   text-decoration: none;
 }
 
-#footer .footer-top h4 {
+#footer .footer-top h3{
+color:#b06abe;
+}
+
+#footer .footer-top h4{
   font-size: 16px;
   font-weight: 600;
-  color: #364146;
+  color: #e9f0f3;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1587,7 +1606,7 @@ background: #91ce00;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #576971;
+  color: #c7c9ca;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1595,6 +1614,10 @@ background: #91ce00;
 
 #footer .footer-top .footer-links ul a:hover {
   color: #009cea;
+}
+
+#footer .footer-newsletter p {
+  color: #c7c9ca ;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1640,5 +1663,5 @@ background: #91ce00;
   padding-top: 8px;
   text-align: center;
   font-size: 13px;
-  color: #364146;
+  color: #c7c9ca;
 }
