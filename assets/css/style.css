@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #782f6b;
+  color: #a54193;
   text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links a {
-  color: #212629;
+  color: #f0dded;
   padding: 12px 0 12px 12px;
   display: inline-block;
   margin-top: 13px;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social-links a:hover {
-  color: #782f6b;
+  color: #a54193;
 }
 
 @media (max-width: 768px) {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 
 .navcolor{
-background:  #aeccfa;
+background:  #070c11;
 position: fixed; 
 top: 0;
 overflow: hidden;
@@ -159,7 +159,7 @@ width: 100%;
 .nav-menu a {
   display: block;
   position: relative;
-  color: #212629;
+  color: #f0dded;
   padding: 10px 15px;
   transition: 0.3s;
   font-size:18px;
@@ -168,7 +168,7 @@ width: 100%;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #782f6b;
+  color: #a54193;
   text-decoration: none;
 }
 
@@ -202,7 +202,7 @@ width: 100%;
 }
 
 .mobile-nav-toggle i {
-  color: #782f6b;
+  color: #f0dded;
 }
 
 .mobile-nav {
@@ -213,7 +213,7 @@ width: 100%;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #a54193;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -230,7 +230,7 @@ width: 100%;
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #364146;
+  color: #f0dded;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -1382,7 +1382,7 @@ background: #91ce00;
 .portfolio-details .portfolio-details-container {
   position: relative;
   /* top: 24px; */
-  height: 90vh;
+  height: 82vh;
 }
 
 .portfolio-details .portfolio-details-carousel {
