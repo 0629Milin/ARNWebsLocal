@@ -521,6 +521,9 @@ section {
 .services{
   background: rgb(234, 240, 240);
 }
+.serviceimg{
+  width: 50vw;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
