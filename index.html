@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
 
   <title>ARN Webs</title>
   <meta content="" name="descriptison">
@@ -387,7 +388,24 @@
     </div>
   </div>
   <!-- Model complete-->
-   
+   <!--Loader-->
+   <div id="loader" class="spinner-grow loader-center"></div> 
+   <script> 
+       document.onreadystatechange = function() { 
+           if (document.readyState !== "complete") { 
+               document.querySelector( 
+                 "body").style.visibility = "hidden"; 
+               document.querySelector( 
+                 "#loader").style.visibility = "visible"; 
+           } else { 
+               document.querySelector( 
+                 "#loader").style.display = "none"; 
+               document.querySelector( 
+                 "body").style.visibility = "visible"; 
+           } 
+       }; 
+   </script>
+   <!--Loaded Complete-->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

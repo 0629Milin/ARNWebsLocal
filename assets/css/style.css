@@ -31,6 +31,27 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
 }
 
+#loader { 
+  
+  width: 70px; 
+  height: 70px; 
+  color: #a208b6;
+}  
+
+@keyframes spin { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+} 
+
+.loader-center { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  margin: auto; 
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1408,7 +1429,7 @@ background: #91ce00;
   .portfolio-details {
     position: static;
     margin-top: 5.4%;
-    height: 51vh;
+    height: 45vh;
   }
 }
 
